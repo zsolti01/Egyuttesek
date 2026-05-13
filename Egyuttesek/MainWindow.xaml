@@ -11,8 +11,8 @@
             <ImageBrush ImageSource="/15109.jpg"/>
         </Grid.Background>
         <DataGrid x:Name="dataG1" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="391,0,0,253"/>
-        <Button x:Name="button1" Content="Leghosszabb album" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" Height="42" Width="182" BorderBrush="Black" Background="#FF70DBFF" FontSize="16" FontWeight="Bold" BorderThickness="3" Foreground="Black"/>
-        <Button x:Name="button3" Content="Tagok száma" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Height="42" Width="182" BorderBrush="Black" Background="#FF70DBFF" FontSize="16" FontWeight="Bold" BorderThickness="3" Foreground="Black"/>
+        <Button x:Name="button1" Content="Leghosszabb album" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" Height="42" Width="182" BorderBrush="Black" Background="#FF70DBFF" FontSize="16" FontWeight="Bold" BorderThickness="3" Foreground="Black" Click="button1_Click"/>
+        <Button x:Name="button3" Content="Tagok száma" HorizontalAlignment="Left" Margin="10,63,0,0" VerticalAlignment="Top" Height="42" Width="182" BorderBrush="Black" Background="#FF70DBFF" FontSize="16" FontWeight="Bold" BorderThickness="3" Foreground="Black" Click="button3_Click"/>
         <Button x:Name="kilepesButton" Content="Kilépés" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Height="42" Width="182" BorderBrush="Black" Background="#FFFF5555" FontSize="16" FontWeight="Bold" BorderThickness="3" Click="kilepesButton_Click" Foreground="White"/>
 
     </Grid>
