@@ -24,5 +24,12 @@ namespace Egyuttesek
         {
             InitializeComponent();
         }
+
+        private void kilepesButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        public string connectionString = "server=localhost;user=root;password=;database=vizsga;";
     }
 }
